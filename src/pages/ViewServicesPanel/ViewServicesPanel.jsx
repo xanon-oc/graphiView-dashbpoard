@@ -1,6 +1,6 @@
 import React from "react";
 import DemoImage from "/burger.png";
-const ViewProductPanel = () => {
+const ViewServicesPanel = () => {
   return (
     <div>
       <div className="overflow-x-auto">
@@ -605,4 +605,4 @@ const ViewProductPanel = () => {
   );
 };
 
-export default ViewProductPanel;
+export default ViewServicesPanel;

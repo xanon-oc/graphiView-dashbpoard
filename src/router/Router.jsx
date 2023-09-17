@@ -1,11 +1,11 @@
 import { createBrowserRouter } from "react-router-dom";
 import Dashboard from "../pages/Dashboard/Dashboard";
 import UserPanel from "../pages/UserPanel/UserPanel";
-import ViewProductPanel from "../pages/ViewProductPanel/ViewProductPanel";
-import AddProductPanel from "../pages/AddProductPanel/AddProductPanel";
 import AddBlogPanel from "../pages/AddBlogPanel/AddBlogPanel";
 import ViewBlogsPanel from "../pages/ViewBlogsPanel/ViewBlogsPanel";
 import QuickReports from "../pages/QuickReports/QuickReports";
+import ViewServicesPanel from "../pages/ViewServicesPanel/ViewServicesPanel";
+import AddServicePanel from "../pages/AddServicePanel/AddServicePanel";
 
 const Router = createBrowserRouter([
   {
@@ -18,11 +18,11 @@ const Router = createBrowserRouter([
       },
       {
         path: "view-products-panel",
-        element: <ViewProductPanel />,
+        element: <ViewServicesPanel />,
       },
       {
         path: "add-product-panel",
-        element: <AddProductPanel />,
+        element: <AddServicePanel />,
       },
       {
         path: "view-blogs-panel",

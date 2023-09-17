@@ -1,4 +1,4 @@
-const AddProductPanel = () => {
+const AddServicePanel = () => {
   const formHandler = (e) => {
     e.preventDefault();
     const form = e.target;
@@ -142,4 +142,4 @@ const AddProductPanel = () => {
   );
 };
 
-export default AddProductPanel;
+export default AddServicePanel;

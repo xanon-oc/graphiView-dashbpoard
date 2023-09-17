@@ -7,6 +7,13 @@ body {
   height: 100vh;
 }
 
+/* active link */
+
+.active {
+  background-color: #007bff;
+  color: #fff;
+}
+
 /* scroll bar */
 ::-webkit-scrollbar {
   width: 0.4rem;
